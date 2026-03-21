@@ -44,4 +44,4 @@ stdout 'Feature Title'
 # Check the PR status
 env PR_STATUS_BRANCH=#1  Feature Title [${ORG}:feature-branch]
 exec gh pr status
-stdout $PR_STATUS_BRANCH
+stdout $PR_STATUS_BRANCHacceptance/testdata/pr/pr-view-status-respects-branch-pushremote.txtar
